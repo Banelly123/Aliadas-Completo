@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Aliadas" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/purple_primary</item>
+        <item name="colorPrimaryVariant">@color/purple_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/purple_light</item>
+        <item name="colorSurface">@color/white</item>
+        <item name="android:colorBackground">@color/background</item>
+        <item name="android:statusBarColor">@color/purple_primary</item>
+        <item name="chipStyle">@style/AliadadChipStyle</item>
+    </style>
+
+    <style name="AliadadChipStyle" parent="Widget.MaterialComponents.Chip.Choice">
+        <item name="chipBackgroundColor">@color/purple_light</item>
+        <item name="chipStrokeColor">@color/purple_primary</item>
+        <item name="android:textColor">@color/purple_primary</item>
+        <item name="checkedIconTint">@color/purple_primary</item>
+    </style>
+
+    <!-- Color selector for nav icons -->
+    <style name="NavIconTint">
+        <item name="android:state_checked">@color/purple_primary</item>
+        <item name="android:state_selected">@color/purple_primary</item>
+        <item name="android:state_enabled">@color/text_secondary</item>
+    </style>
+</resources>

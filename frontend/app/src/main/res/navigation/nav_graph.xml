@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.aliadas.main.HomeFragment"
+        android:label="Inicio" />
+
+    <fragment
+        android:id="@+id/nav_contacts"
+        android:name="com.aliadas.contacts.ContactsFragment"
+        android:label="Contactos" />
+
+    <fragment
+        android:id="@+id/nav_community"
+        android:name="com.aliadas.community.CommunityFragment"
+        android:label="Comunidad" />
+
+    <fragment
+        android:id="@+id/nav_resources"
+        android:name="com.aliadas.resources.ResourcesFragment"
+        android:label="Recursos" />
+
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="com.aliadas.profile.ProfileFragment"
+        android:label="Perfil" />
+
+</navigation>

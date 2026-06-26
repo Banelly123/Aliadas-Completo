@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Brand colors -->
+    <color name="purple_primary">#6B35C7</color>
+    <color name="purple_dark">#4A249A</color>
+    <color name="purple_light">#EDE7F6</color>
+    <color name="purple_surface">#F3EEFF</color>
+
+    <!-- Accent -->
+    <color name="red_panic">#E53935</color>
+    <color name="orange_accent">#F57C00</color>
+    <color name="green_success">#43A047</color>
+
+    <!-- Neutral -->
+    <color name="background">#F8F6FB</color>
+    <color name="white">#FFFFFF</color>
+    <color name="text_primary">#1A1A2E</color>
+    <color name="text_secondary">#757575</color>
+    <color name="divider">#E0E0E0</color>
+
+    <!-- Nav -->
+    <color name="nav_icon_selected">#6B35C7</color>
+    <color name="nav_icon_unselected">#9E9E9E</color>
+</resources>
